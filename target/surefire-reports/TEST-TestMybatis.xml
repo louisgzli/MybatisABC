@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestMybatis" time="0.652" tests="7" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.class.path" value="D:\web_workspace\MabatisABC\target\test-classes;D:\web_workspace\MabatisABC\target\classes;D:\lib\repo\org\mybatis\mybatis\3.4.6\mybatis-3.4.6.jar;D:\lib\repo\org\ow2\asm\asm\6.1.1\asm-6.1.1.jar;D:\lib\repo\cglib\cglib\3.2.6\cglib-3.2.6.jar;D:\lib\repo\org\apache\ant\ant\1.9.6\ant-1.9.6.jar;D:\lib\repo\org\apache\ant\ant-launcher\1.9.6\ant-launcher-1.9.6.jar;D:\lib\repo\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;D:\lib\repo\org\javassist\javassist\3.22.0-GA\javassist-3.22.0-GA.jar;D:\lib\repo\junit\junit\4.12\junit-4.12.jar;D:\lib\repo\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;D:\lib\repo\mysql\mysql-connector-java\5.1.25\mysql-connector-java-5.1.25.jar;D:\lib\repo\org\apache\logging\log4j\log4j-core\2.11.0\log4j-core-2.11.0.jar;D:\lib\repo\org\apache\logging\log4j\log4j-api\2.11.0\log4j-api-2.11.0.jar;D:\lib\repo\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;D:\lib\repo\org\slf4j\slf4j-log4j12\1.7.25\slf4j-log4j12-1.7.25.jar;D:\lib\repo\log4j\log4j\1.2.17\log4j-1.2.17.jar;D:\lib\repo\org\eclipse\jetty\jetty-server\9.4.9.v20180320\jetty-server-9.4.9.v20180320.jar;D:\lib\repo\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar;D:\lib\repo\org\eclipse\jetty\jetty-http\9.4.9.v20180320\jetty-http-9.4.9.v20180320.jar;D:\lib\repo\org\eclipse\jetty\jetty-util\9.4.9.v20180320\jetty-util-9.4.9.v20180320.jar;D:\lib\repo\org\eclipse\jetty\jetty-io\9.4.9.v20180320\jetty-io-9.4.9.v20180320.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="D:\myeclipse\binary\com.sun.java.jdk8.win32.x86_64_1.8.0.u66\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\ADMINI~1\AppData\Local\Temp\surefire7630081479683044919\surefirebooter3489695218037520330.jar C:\Users\Administrator\AppData\Local\Temp\surefire7630081479683044919 2018-05-08T11-24-34_837-jvmRun1 surefire5128992886618498293tmp surefire_08898668208744922997tmp"/>
+    <property name="surefire.test.class.path" value="D:\web_workspace\MabatisABC\target\test-classes;D:\web_workspace\MabatisABC\target\classes;D:\lib\repo\org\mybatis\mybatis\3.4.6\mybatis-3.4.6.jar;D:\lib\repo\org\ow2\asm\asm\6.1.1\asm-6.1.1.jar;D:\lib\repo\cglib\cglib\3.2.6\cglib-3.2.6.jar;D:\lib\repo\org\apache\ant\ant\1.9.6\ant-1.9.6.jar;D:\lib\repo\org\apache\ant\ant-launcher\1.9.6\ant-launcher-1.9.6.jar;D:\lib\repo\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;D:\lib\repo\org\javassist\javassist\3.22.0-GA\javassist-3.22.0-GA.jar;D:\lib\repo\junit\junit\4.12\junit-4.12.jar;D:\lib\repo\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;D:\lib\repo\mysql\mysql-connector-java\5.1.25\mysql-connector-java-5.1.25.jar;D:\lib\repo\org\apache\logging\log4j\log4j-core\2.11.0\log4j-core-2.11.0.jar;D:\lib\repo\org\apache\logging\log4j\log4j-api\2.11.0\log4j-api-2.11.0.jar;D:\lib\repo\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;D:\lib\repo\org\slf4j\slf4j-log4j12\1.7.25\slf4j-log4j12-1.7.25.jar;D:\lib\repo\log4j\log4j\1.2.17\log4j-1.2.17.jar;D:\lib\repo\org\eclipse\jetty\jetty-server\9.4.9.v20180320\jetty-server-9.4.9.v20180320.jar;D:\lib\repo\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar;D:\lib\repo\org\eclipse\jetty\jetty-http\9.4.9.v20180320\jetty-http-9.4.9.v20180320.jar;D:\lib\repo\org\eclipse\jetty\jetty-util\9.4.9.v20180320\jetty-util-9.4.9.v20180320.jar;D:\lib\repo\org\eclipse\jetty\jetty-io\9.4.9.v20180320\jetty-io-9.4.9.v20180320.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Administrator"/>
+    <property name="user.language" value="zh"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="D:\myeclipse\binary\com.sun.java.jdk8.win32.x86_64_1.8.0.u66\jre"/>
+    <property name="basedir" value="D:\web_workspace\MabatisABC"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\ADMINI~1\AppData\Local\Temp\surefire7630081479683044919\surefirebooter3489695218037520330.jar"/>
+    <property name="sun.boot.class.path" value="D:\myeclipse\binary\com.sun.java.jdk8.win32.x86_64_1.8.0.u66\jre\lib\resources.jar;D:\myeclipse\binary\com.sun.java.jdk8.win32.x86_64_1.8.0.u66\jre\lib\rt.jar;D:\myeclipse\binary\com.sun.java.jdk8.win32.x86_64_1.8.0.u66\jre\lib\sunrsasign.jar;D:\myeclipse\binary\com.sun.java.jdk8.win32.x86_64_1.8.0.u66\jre\lib\jsse.jar;D:\myeclipse\binary\com.sun.java.jdk8.win32.x86_64_1.8.0.u66\jre\lib\jce.jar;D:\myeclipse\binary\com.sun.java.jdk8.win32.x86_64_1.8.0.u66\jre\lib\charsets.jar;D:\myeclipse\binary\com.sun.java.jdk8.win32.x86_64_1.8.0.u66\jre\lib\jfr.jar;D:\myeclipse\binary\com.sun.java.jdk8.win32.x86_64_1.8.0.u66\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_66-b17"/>
+    <property name="user.name" value="Administrator"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="6.1"/>
+    <property name="java.endorsed.dirs" value="D:\myeclipse\binary\com.sun.java.jdk8.win32.x86_64_1.8.0.u66\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="GBK"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="D:\lib\repo"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\ADMINI~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_66"/>
+    <property name="user.dir" value="D:\web_workspace\MabatisABC"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.library.path" value="D:\myeclipse\binary\com.sun.java.jdk8.win32.x86_64_1.8.0.u66\jre\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files\Java\jdk1.7.0_80\bin;C:\Program Files\Java\jdk1.7.0_80\jre\bin;F:\迅雷下载\android-sdk-windows\platform-tools;F:\迅雷下载\android-sdk-windows\tools;F:\Appium\node_modules\.bin;C:\Users\Administrator\AppData\Local\Programs\Python\Python36;C:\windows\system32\;C:\Program Files\Git\cmd;D:\Apache24\bin;C:\Program Files\nodejs\;C:\windows;C:\windows\system32\wbem;D:\Program Files\python\Scripts\pip.exe;D:\lib\maven3\bin;D:\mysql\mysql-5.6\bin;D:\Program Files\python\Scripts\;D:\Program Files\python\;C:\Users\Administrator\.babun;C:\Users\Administrator\AppData\Roaming\npm;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.66-b17"/>
+    <property name="java.ext.dirs" value="D:\myeclipse\binary\com.sun.java.jdk8.win32.x86_64_1.8.0.u66\jre\lib\ext;C:\windows\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="testDeleteArray" classname="TestMybatis" time="0.369"/>
+  <testcase name="testDeleteMap" classname="TestMybatis" time="0.024"/>
+  <testcase name="testDeleteById" classname="TestMybatis" time="0.021"/>
+  <testcase name="testDeleteList" classname="TestMybatis" time="0.034"/>
+  <testcase name="testInsert" classname="TestMybatis" time="0.071"/>
+  <testcase name="testSelect" classname="TestMybatis" time="0.057"/>
+  <testcase name="testUpdate" classname="TestMybatis" time="0.049"/>
+</testsuite>
